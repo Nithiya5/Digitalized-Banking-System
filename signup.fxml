@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.digitalbanking.HelloController">
+    <children>
+        <TextField fx:id="usernameField" layoutX="225.0" layoutY="-84.0" promptText="Username" />
+        <Button layoutX="250.0" layoutY="311.0" mnemonicParsing="false" onAction="#gotologin" text="Sign Up" />
+        <ImageView fitHeight="464.0" fitWidth="693.0" layoutX="-89.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@Signup dbs.jpg" />
+            </image>
+        </ImageView>
+        <Button layoutX="217.0" layoutY="286.0" mnemonicParsing="false" onAction="#gotologin" prefHeight="26.0" prefWidth="80.0" text="signup" />
+        <PasswordField fx:id="passid" layoutX="132.0" layoutY="189.0" prefHeight="44.0" prefWidth="323.0" promptText="enter the password" />
+        <Label fx:id="sid" layoutX="174.0" layoutY="243.0" prefHeight="18.0" prefWidth="186.0" />
+        <TextField fx:id="nameid" layoutX="132.0" layoutY="111.0" prefHeight="44.0" prefWidth="323.0" />
+
+    </children>
+</AnchorPane>
